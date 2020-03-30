@@ -1,0 +1,3 @@
+### --- policy for <appName> ---
+# create application
+- !host <appName>

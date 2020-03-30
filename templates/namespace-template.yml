@@ -1,0 +1,4 @@
+# creating namespace for '<appName>''
+- !policy
+  id: <appName>
+  owner: !host <appName>

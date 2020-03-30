@@ -1,0 +1,5 @@
+# granting '<appName>' retrieve only privileges to safe '<safeName>'
+- !group <vaultName>/<lobUser>/<safeName>/delegation/consumers
+- !grant
+  roles: !group <vaultName>/<lobUser>/<safeName>/delegation/consumers
+  member: !host <appName>

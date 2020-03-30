@@ -1,0 +1,5 @@
+# granting '<appName>' admin privileges to safe '<safeName>'
+- !group <vaultName>/<lobUser>/<safeName>_admins
+- !grant
+  roles: !group <vaultName>/<lobUser>/<safeName>_admins
+  member: !host <appName>

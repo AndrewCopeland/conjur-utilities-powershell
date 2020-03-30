@@ -1,0 +1,4 @@
+# granting '<appName>' ability to use '<authenticator>'
+- !grant
+  role: !group conjur/<authenticator>/apps
+  member: !host <appName>
