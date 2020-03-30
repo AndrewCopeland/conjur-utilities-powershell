@@ -4,5 +4,12 @@
 ### From source
 
 ```powershell
-PS C:\> Import-Module .\ConjurUtilities.psm1
+Import-Module .\ConjurUtilities.psm1
 ```
+
+## Usage
+
+### Get-ConjurAppPolicy
+
+
+### New-ConjurApp
